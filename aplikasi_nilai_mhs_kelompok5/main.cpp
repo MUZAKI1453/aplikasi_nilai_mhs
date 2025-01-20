@@ -19,8 +19,8 @@ int tampilkan_data() {
     cout << "========DATA NILAI MHS=======" << endl;
     cout << "#############################" << endl;
 
-    for (int i = 1; i <= n; i++) {
-        cout << "Data Mahasiswa ke-" << i << endl;
+    for (int i = 0; i < n; i++) {
+        cout << "Data Mahasiswa ke-" << i + 1 << endl;
         cout << "  Nama         : " << nama[i] << endl;
         cout << "  Nilai        : " << nilai_mahasiswa[i] << endl;
     }
@@ -63,8 +63,8 @@ int edit_data() {
     cout << "#############################" << endl;
     cout << "========DATA NILAI MHS=======" << endl;
     cout << "#############################" << endl;
-    for (int i = 1; i <= n; i++) {
-        cout << "Data Mahasiswa ke-" << i << endl;
+    for (int i = 0; i < n; i++) {
+        cout << "Data Mahasiswa ke-" << i + 1 << endl;
         cout << "  Nama         : ";
         cin >> nama[i];
         cout << "  Nilai        : ";
